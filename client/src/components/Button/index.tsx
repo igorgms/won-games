@@ -1,4 +1,7 @@
+import { AnchorHTMLAttributes, ButtonHTMLAttributes} from 'react'
 import * as S from './styles'
+
+type ButtonTypes = AnchorHTMLAttributes<HTMLAnchorElement> | ButtonHTMLAttributes<HTMLAnchorElement>
 
 export type ButtonProps = {
   children?: React.ReactNode
